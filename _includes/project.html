@@ -3,18 +3,44 @@
 
 	<!-- TODO: image slide show-->
 
-	<div class="project-description">{{include.project.description}}</div>
+	<div class="project-description">{{include.project.content}}</div>
 	<div class="project-metadata">
 		<div class="when-and-where">
-
+			{% if include.project.date != null %}
+			<span class="date">Date: {{include.project.date}}</span>
+			{% endif %}
+			{% if include.project.location != null %}
+			<span class="location">Location: {{include.project.location}}</span>
+			{% endif %}
 		</div>
 
+		{% if include.project.artists != null %}
 		<div class="artists">
-		
+			<h3>Artists</h3>
+			<ul>
+				{% for artist in include.project.artists %}
+				<li>{{artist}}</li>
+				{% endfor %}
+			</ul>
 		</div>
+		{% endif %}
 
-		<div class="support">
-		
+		{% if include.project.team != null %}
+		<div class="team">
+			<h3>Organizing Team</h3>
+			<ul>
+				{% for teammate in include.project.team %}
+				<li>{{teammate}}</li>
+				{% endfor %}
+			</ul>
 		</div>
+		{% endif %}
+
+		{% if include.project.support != null %}
+		<div class="support">
+			<h3>Support</h3>
+			<p>{{include.project.support}}</p>
+		</div>
+		{% endif %}
 	</div>
 </div>
