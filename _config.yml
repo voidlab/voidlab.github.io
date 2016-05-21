@@ -18,5 +18,9 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: uclavoidlab
 github_username:  voidlab
 
+collections:
+  members:
+    output: true
+
 # Build settings
 markdown: kramdown
