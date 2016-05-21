@@ -1,5 +1,5 @@
 ---
 name: hsniyu lin
-photo: images/eevee.jpg
+photo: images/silhouette.jpg
 ---
 hsinyu lin is a person.
