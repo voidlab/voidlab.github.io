@@ -1,8 +1,6 @@
 ---
-title: Sorry for not being _____
+title: Sorry for not being ____
 type: exhibition
-description: >
-  “Sorry for not being ____”, displays real life conversations, exchanges of words, and comments. Endless encounters that are so ordinary they often go unnoticed. The posters are a formal expression of this everyday experience.
 date: April 4, 2016
 location: UCLA Untitled Cafe, Broad Art Center
 artists:
@@ -13,3 +11,5 @@ artists:
 - Kate Hollenbach
 - Evelyn Masso
 ---
+
+“Sorry for not being ____”, displays real life conversations, exchanges of words, and comments. Endless encounters that are so ordinary they often go unnoticed. The posters are a formal expression of this everyday experience.
