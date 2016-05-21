@@ -21,10 +21,7 @@ collections:
   - projects
   - exhibitions
   - talks
-
-collections:
-  members:
-    output: true
+  - members
 
 # Build settings
 markdown: kramdown
