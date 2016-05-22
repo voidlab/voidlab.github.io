@@ -2,11 +2,17 @@
 	<h2>{{include.project.title}}</h2>
 
     {% if include.project.images != null %}
-		<div class="carousel">
-		{% for img in include.project.images %}
-			<img src="{{img.image}}">
-			<span class="caption">{{img.caption}}</span>
-		{% endfor %}
+		<div class="flexslider">
+			<ul class="slides">
+			{% for img in include.project.images %}
+				<li>
+				<div class="slide">
+					<img src="{{img.image}}" />
+					<span class="caption">{{img.caption}}</span>
+				</div>
+				</li>
+			{% endfor %}
+			</ul>
 		</div>
 	{% endif %}
 

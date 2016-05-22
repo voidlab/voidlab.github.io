@@ -240,3 +240,14 @@
         }
     }
 }
+
+/** Projects, Exhibitions, and Talks */
+.slide {
+    text-align: center;
+}
+
+.flexslider .slides .slide img {
+    height: 480px;
+    width: auto;
+    margin: auto;   
+}
