@@ -1,13 +1,28 @@
 /**
  * Site header
  */
+
+header {
+    position: fixed;
+
+}
+
+.site-nav .page-link.current-page {
+    color: $brand_color;
+}
+
 .site-header {
     min-height: 86px;
 
     border-bottom: 1px solid $grey-color-light;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 170;
+    background: rgba(0, 0, 0, .95);
 }
 
 .site-header .wrapper {
@@ -176,6 +191,7 @@
  * Page content
  */
 .page-content {
+    margin-top: 86px;
     padding: $spacing-unit 0;
 }
 
