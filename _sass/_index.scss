@@ -4,3 +4,13 @@ section#splash {
     column-count: 2;
   }
 }
+
+section#press {
+  ul, li {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  ul {
+    list-style: none;
+  }
+}
