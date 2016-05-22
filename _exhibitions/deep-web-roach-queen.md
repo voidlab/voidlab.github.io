@@ -1,7 +1,7 @@
 ---
 title: DEEP WEB ROACH QUEEN
 type: exhibition
-date: December 4, 2015
+eventdate: December 4, 2015
 location: UCLA Broad Art Center, Room 5240
 artists:
 - Anisa Bashiri
