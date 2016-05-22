@@ -17,6 +17,14 @@ artists:
 - Amanda Stojanov
 - Echo Theohar
 - Andrea Vitali
+images:
+- image: /images/deep-web-roach-queen/dwrq-1.jpg
+- image: /images/deep-web-roach-queen/dwrq-2.jpg
+- image: /images/deep-web-roach-queen/dwrq-3.jpg
+- image: /images/deep-web-roach-queen/dwrq-4.jpg
+- image: /images/deep-web-roach-queen/dwrq-5.jpg
+- image: /images/deep-web-roach-queen/dwrq-6.jpg
+- image: /images/deep-web-roach-queen/dwrq-7.jpg
 ---
 
 DEEP WEB ROACH QUEEN is voidLab’s very first exhibition featuring works from (female) students of the DMA department at UCLA, and promoting female presence in art and technology. The projects shown are alive as one hive; glistening and absorbent, they infect each other in a communal space. The works included are of sculpture, video, print, and interactive art.

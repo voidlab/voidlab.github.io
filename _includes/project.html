@@ -1,7 +1,20 @@
 <div class="project">
 	<h2>{{include.project.title}}</h2>
 
-	<!-- TODO: image slide show-->
+    {% if include.project.images != null %}
+		<div class="flexslider">
+			<ul class="slides">
+			{% for img in include.project.images %}
+				<li>
+				<div class="slide">
+					<img src="{{img.image}}" />
+					<span class="caption">{{img.caption}}</span>
+				</div>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
 
 	<div class="project-description">{{include.project.content}}</div>
 	<div class="project-metadata">
