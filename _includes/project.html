@@ -6,9 +6,10 @@
 			<ul class="slides">
 			{% for img in include.project.images %}
 				<li>
-				<div class="slide">
+  				<div class="slide">
 					<img src="{{img.image}}" />
-					<span class="caption">{{img.caption}}</span>
+					<span class="caption">{{img.caption}} {% if img.credit != null %}Photo by {% include person.html person=img.credit %}.{% endif %}
+					</span>
 				</div>
 				</li>
 			{% endfor %}
@@ -16,14 +17,15 @@
 		</div>
 	{% endif %}
 
+	<div class="project-details">
 	<div class="project-description">{{include.project.content}}</div>
 	<div class="project-metadata">
 		<div class="when-and-where">
 			{% if include.project.date != null %}
-			<span class="date">Date: {{include.project.date}}</span>
+			<div class="date">Date: {{include.project.date | date: '%B %d, %Y'}}</div>
 			{% endif %}
 			{% if include.project.location != null %}
-			<span class="location">Location: {{include.project.location}}</span>
+			<div class="location">Location: {{include.project.location}}</div>
 			{% endif %}
 		</div>
 
@@ -32,7 +34,7 @@
 			<h3>Artists</h3>
 			<ul>
 				{% for artist in include.project.artists %}
-				<li>{{artist}}</li>
+				<li>{% include person.html person=artist %}</li>
 				{% endfor %}
 			</ul>
 		</div>
@@ -43,7 +45,7 @@
 			<h3>Organizing Team</h3>
 			<ul>
 				{% for teammate in include.project.team %}
-				<li>{{teammate}}</li>
+				<li>{% include person.html person=teammate %}</li>
 				{% endfor %}
 			</ul>
 		</div>
@@ -55,5 +57,6 @@
 			<p>{{include.project.support}}</p>
 		</div>
 		{% endif %}
+	</div>
 	</div>
 </div>

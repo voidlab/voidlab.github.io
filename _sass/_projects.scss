@@ -1,3 +1,25 @@
+.slide {
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-end;
+}
+
+.slide img {
+	
+}
+
+.caption {
+	
+}
+
+.project-details {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: $spacing-unit;
+	margin-bottom: $spacing-unit * 2;
+}
 
 .project-description, .project-metadata {
 	display: inline-block;
@@ -5,11 +27,20 @@
 }
 
 .project-description {
-	width: 70%;
+	flex: 3 1;
+	max-width: $on_palm;
+	min-width: $on_palm/2;
+	padding-right: $spacing_unit;
 }
 
 .project-metadata {
-	width: 25%;
+	flex: 0 1 auto;
+	font-size: $small-font-size;
+	line-height: $base-font-size * $base-line-height;
+}
+
+.when-and-where {
+	margin-bottom: $spacing_unit;
 }
 
 .caption {

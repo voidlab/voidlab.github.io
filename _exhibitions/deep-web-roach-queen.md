@@ -4,19 +4,29 @@ type: exhibition
 eventdate: December 4, 2015
 location: UCLA Broad Art Center, Room 5240
 artists:
-- Anisa Bashiri
-- Symrin Chawla
-- Hillary Cleary
-- Kate Hollenbach
-- Yuehao Jiang
-- Lilyan Kris
-- hsinyu lin
-- Lauren Mahon
-- Linda Mendez
-- Ruth Shaffer
-- Amanda Stojanov
-- Echo Theohar
-- Andrea Vitali
+- name: Anisa Bashiri
+- name: Symrin Chawla
+  url: http://www.symru.net/
+- name: Hillary Cleary
+  url: http://cargocollective.com/hillarycleary
+- name: Kate Hollenbach
+  url: http://www.katehollenbach.com
+- name: Yuehao Jiang
+  url: http://www.yuehaojiang.com/
+- name: Lilyan Kris
+  url: http://cargocollective.com/lkris
+- name: hsinyu lin
+  url: http://hsinyulin.info
+- name: Lauren Mahon
+  url: http://angeleskelley.com/
+- name: Linda Mendez
+- name: Ruth Shaffer
+- name: Amanda Stojanov
+  url: http://amandastojanov.com/
+- name: Echo Theohar
+  url: http://www.instagram.com/eskyet/
+- name: Andrea Vitali
+  url: http://annamariandrea.itch.io/
 images:
 - image: /images/deep-web-roach-queen/dwrq-1.jpg
 - image: /images/deep-web-roach-queen/dwrq-2.jpg
