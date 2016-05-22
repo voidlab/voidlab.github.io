@@ -5,21 +5,22 @@ section#members {
   justify-content: flex-start;
   align-items: center;
   align-content: space-between;
+  align-items: flex-start;
 
+
+  width: 100%;
   margin-bottom: $spacing-unit;
 
   section.member-container {
     width: 12rem;
-    height: 18rem;
-    padding: 0.5rem;
 
-    flex: auto;
+    flex: 0 0 auto;
     display: flex;
     flex-flow: column nowrap;
+    margin: 1rem;
 
     img {
-      max-width: 10rem;
-      max-height: 10rem;
+      max-width: 100%;
       flex: 0 0 auto;
       padding-top: 0.25rem;
       padding-bottom: 0.25rem;
@@ -29,9 +30,10 @@ section#members {
       margin-left: 0.25rem;
       margin-right: 0.25rem;
       margin-bottom: 0.25rem;
+      font-size: $small-font-size
     }
     p {
-      font-size: $small-font-size;
+      font-size: $small-font-size * 0.75;
       flex: 0 0 auto;
       margin-left: 0.25rem;
       margin-right: 2rem;

@@ -1,16 +1,38 @@
+ul, li {
+  margin-left: 0;
+  padding-left: 0;
+}
+ul {
+  list-style: none;
+}
+
+.flex-page {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 section#splash {
+  display: flex;
+  flex-flow: column nowrap;
 
   p {
     column-count: 2;
   }
+
+  ul.links {
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+
+    li {
+      font-weight: bold;
+      flex: auto;
+
+    }
+  }
 }
 
 section#press {
-  ul, li {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  ul {
-    list-style: none;
-  }
+
 }

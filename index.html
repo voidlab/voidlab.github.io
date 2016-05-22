@@ -1,40 +1,42 @@
 ---
 layout: default
 ---
+<div class="flex-page">
+  <section id="splash">
 
-<section id="splash">
+    <h1>
+      voidLab is an intersectional feminist collective for
+      women, non-binary, gender nonconforming, trans and queer people to
+      express individual identities through arts and technologies.
+    </h1>
 
-  <h1>
-    voidLab is an intersectional feminist collective for
-    women, non-binary, gender nonconforming, trans and queer people to
-    express individual identities through arts and technologies.
-  </h1>
+    <p>
+      Candy bonbon pastry jujubes lollipop wafer biscuit biscuit. Topping brownie sesame snaps sweet roll pie. Croissant danish biscuit soufflé caramels jujubes jelly collaborative projects. Dragée danish caramels lemon drops dragée. Gummi bears cupcake biscuit tiramisu sugar plum pastry. Dragée gummies applicake pudding liquorice. Topping brownie sesame snaps sweet roll pie. Croissant danish biscuit soufflé caramels jujubes jelly talks. Dragée danish caramels lemon drops dragée. Gummi bears cupcake biscuit tiramisu exhibitions pastry. Dragée gummies applicake pudding liquorice.
+      </br>
+      </br>
+      <a>Community Guidelines >></a>
+    </p>
 
-  <p>
-    Candy bonbon pastry jujubes lollipop wafer biscuit biscuit. Topping brownie sesame snaps sweet roll pie. Croissant danish biscuit soufflé caramels jujubes jelly collaborative projects. Dragée danish caramels lemon drops dragée. Gummi bears cupcake biscuit tiramisu sugar plum pastry. Dragée gummies applicake pudding liquorice. Topping brownie sesame snaps sweet roll pie. Croissant danish biscuit soufflé caramels jujubes jelly talks. Dragée danish caramels lemon drops dragée. Gummi bears cupcake biscuit tiramisu exhibitions pastry. Dragée gummies applicake pudding liquorice.
-  </p>
+    <ul class="links">
+      <li><a>email</a></li>
+      <li><a>twitter</a></li>
+      <li><a>facebook</a></li>
+      <li><a>instagram</a></li>
+      <li><a>vimeo</a></li>
+      <li><a>github</a></li>
+    </ul>
 
-  <a>Community Guidelines >></a>
+  </section>
 
-  <div class="links">
-    <a>email</a>
-    <a>twitter</a>
-    <a>facebook</a>
-    <a>instagram</a>
-    <a>vimeo</a>
-    <a>github</a>
-  <div>
+  <h2>co-founders</h2>
+  <section id="members">
+    {% for item in site.members %}
+      {% include member.html member=item %}
+    {% endfor %}
+  </section>
 
-</section>
-
-<h2>co-founders</h2>
-<section id="members">
-  {% for item in site.members %}
-    {% include member.html member=item %}
-  {% endfor %}
-</section>
-
-<h2>press</h2>
-<section id="press">
-{% include press-links.html %}
-<section
+  <h2>press</h2>
+  <section id="press">
+    {% include press-links.html %}
+  </section>
+</div>
