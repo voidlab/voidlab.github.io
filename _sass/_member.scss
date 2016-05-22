@@ -1,0 +1,40 @@
+
+section#members {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+
+  margin-bottom: $spacing-unit;
+
+  section.member-container {
+    width: 12rem;
+    height: 18rem;
+    padding: 0.5rem;
+
+    flex: auto;
+    display: flex;
+    flex-flow: column nowrap;
+
+    img {
+      max-width: 10rem;
+      max-height: 10rem;
+      flex: 0 0 auto;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+    }
+    h1 {
+      flex: 0 0 auto;
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+      margin-bottom: 0.25rem;
+    }
+    p {
+      font-size: $small-font-size;
+      flex: 0 0 auto;
+      margin-left: 0.25rem;
+      margin-right: 2rem;
+    }
+  }
+}
