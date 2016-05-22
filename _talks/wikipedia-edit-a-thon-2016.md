@@ -6,6 +6,17 @@ location: UCLA Broad Art Center
 support: >
   This event was made possible by the generous support from Art + Feminism and the UCLA Arts Library.
   With special thanks to Janine Henri, Margarita Nafpaktitis, and Stacey Allan.
+team:
+- Niko
+- hsinyu lin
+- Kate Hollenbach
+- Chelly Jin
+- Nika Kolodziej
+- Yuehao Jiang
+- Amanda Stojanov
+- Echo Theohar
+- Andrea Vitali
+- Sanglim Han
 images:
 - image: /images/edit-a-thon-2016/wikipedia-1.jpg
   caption: "Preparing artist list for the event."
