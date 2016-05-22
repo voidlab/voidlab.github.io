@@ -6,6 +6,25 @@ location: UCLA Broad Art Center
 support: >
   This event was made possible by the generous support from Art + Feminism and the UCLA Arts Library.
   With special thanks to Janine Henri, Margarita Nafpaktitis, and Stacey Allan.
+images:
+- image: /images/edit-a-thon-2016/wikipedia-1.jpg
+  caption: "Preparing artist list for the event."
+  credit: hsinyu lin
+- image: /images/edit-a-thon-2016/wikipedia-2.jpg
+  caption: "Participants choosing the artists to add or edit."
+  credit: Andrea Vitali
+- image: /images/edit-a-thon-2016/wikipedia-3.jpg
+  caption: "First tutorial session hosted by Kate Hollenbach."
+  credit: Andrea Vitali
+- image: /images/edit-a-thon-2016/wikipedia-4.jpg
+  caption: "Second tutorial hosted by hsinyu lin."
+  credit: Anisa Bashiri
+- image: /images/edit-a-thon-2016/wikipedia-5.jpg
+  caption: "19 articles were added / edited by the end of the event."
+  credit: Andrea Vitali
+- image: /images/edit-a-thon-2016/wikipedia-6.png
+  caption: "Event banner designed by Niko."
+
 ---
 
 Systemic bias in Wikipedia results from a disproportionate rate of women contributors (15%) and editors (8.5%). Notable women from history and contemporary life are underrepresented in this online platform, meaning: they are not getting the recognition they deserve. Co-organized with the [UCLA Arts Library](http://www.library.ucla.edu/arts "UCLA Arts Library"), people of all gender identities are welcomed to join us to write women back into history for the digital age.
