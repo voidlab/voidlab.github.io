@@ -10,12 +10,23 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
+  
+  <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+
   <link rel="stylesheet" href="{{ "/css/flexslider.css" | prepend: site.baseurl }}" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script src="{{ "/js/jquery.flexslider-min.js" | prepend: site.baseurl }}"></script>
   <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
-    $('.flexslider').flexslider();
+    $('.flexslider').flexslider({
+    	animation: "fade",
+    	controlNav: false,
+    	directionNav: true,
+    	slideshowSpeed: 5000,
+    	animationSpeed: 600,
+    	touch: true
+    });
   });
   </script>
 </head>
