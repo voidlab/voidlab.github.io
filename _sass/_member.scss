@@ -1,11 +1,12 @@
 
 section#members {
+  align-self: center;
+
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
   align-items: center;
-  align-content: space-between;
   align-items: flex-start;
+  justify-content: space-between;
 
 
   width: 100%;
@@ -13,11 +14,12 @@ section#members {
 
   section.member-container {
     width: 12rem;
+    max-width: 12rem;
 
-    flex: 0 0 auto;
+    flex: 1 1 auto;
     display: flex;
     flex-flow: column nowrap;
-    margin: 1rem;
+    // margin: 1rem;
 
     img {
       max-width: 100%;
