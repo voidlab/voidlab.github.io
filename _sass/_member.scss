@@ -13,8 +13,8 @@ section#members {
   margin-bottom: $spacing-unit;
 
   section.member-container {
-    width: 12rem;
-    max-width: 12rem;
+    width: 280px;
+    max-width: 280px;
 
     flex: 1 1 auto;
     display: flex;
@@ -31,14 +31,17 @@ section#members {
       flex: 0 0 auto;
       margin-left: 0.25rem;
       margin-right: 0.25rem;
-      margin-bottom: 0.25rem;
-      font-size: $small-font-size
+      margin-bottom: 0;
+      margin-top: 0.75rem;
+      font-size: $small-font-size;
+      font-weight: 700;
     }
     p {
-      font-size: $small-font-size * 0.75;
+      font-size: $small-font-size;
+      font-weight: 400;
       flex: 0 0 auto;
       margin-left: 0.25rem;
-      margin-right: 2rem;
+      margin-right: 0.25rem;
     }
   }
 }
