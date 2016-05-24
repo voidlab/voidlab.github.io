@@ -1,28 +1,29 @@
 
 section#members {
-  align-self: center;
+  align-self: left;
 
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   align-items: flex-start;
-  justify-content: space-between;
+  width: calc(100% + 30px);
 
-
-  width: 100%;
   margin-bottom: $spacing-unit;
-
+  justify-content: flex-start;
+  
   section.member-container {
     width: 280px;
     max-width: 280px;
+    margin-left: 0;
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
 
     flex: 1 1 auto;
     display: flex;
     flex-flow: column nowrap;
-    // margin: 1rem;
 
     img {
       max-width: 100%;
+      height: auto;
       flex: 0 0 auto;
       padding-top: 0.25rem;
       padding-bottom: 0.25rem;
@@ -45,3 +46,5 @@ section#members {
     }
   }
 }
+
+
