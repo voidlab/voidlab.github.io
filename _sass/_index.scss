@@ -15,11 +15,19 @@ section#splash {
   display: flex;
   flex-flow: column nowrap;
 
+  h1 {
+    font-size: 3.0em;
+    margin-bottom: 1.0em;
+  }
+
   p {
     column-count: 2;
+    line-height: 1.8em;
   }
 
   ul.links {
+    margin-top: 1em;
+    margin-bottom: 2em;
     align-self: center;
     display: flex;
     flex-flow: row wrap;
