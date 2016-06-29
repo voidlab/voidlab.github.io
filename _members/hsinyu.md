@@ -1,5 +1,5 @@
 ---
-name: hsinyu lin
+name: zeenyooneen
 photo: images/twinkle.gif
 ---
-hsinyu lin is a person.
+intersectional creature, they / them / theirs.
