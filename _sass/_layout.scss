@@ -174,7 +174,7 @@ header.scrolled {
           font-size: 1.5em;
           margin-left: .5em;
           margin-right: .5em;
-          @include media-query($on-laptop) {
+          @include media-query($on-palm) {
             margin-right: $spacing-unit / 2;
             margin-left: $spacing-unit / 2;
             font-size: 2em;
