@@ -17,6 +17,11 @@ section#splash {
 
   h1 {
     font-size: 3.0em;
+
+    @include media-query($on-palm) {
+      font-size: 2em;
+    }
+
     margin-bottom: 1em;
   }
 
