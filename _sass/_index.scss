@@ -17,7 +17,7 @@ section#splash {
 
   h1 {
     font-size: 3.0em;
-    margin-bottom: 1.0em;
+    margin-bottom: 1em;
   }
 
   p {
@@ -27,16 +27,19 @@ section#splash {
 
   ul.links {
     margin-top: 1em;
-    margin-bottom: 2em;
-    align-self: center;
-    display: flex;
-    flex-flow: row wrap;
-    width: 70%;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
 
     li {
       font-weight: bold;
-      flex: auto;
-
+      font-size: 1.5em;
+      margin-left: .5em;
+      margin-right: .5em;
+      display:inline-block;
     }
   }
 }

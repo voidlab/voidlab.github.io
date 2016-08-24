@@ -44,6 +44,10 @@ section#members {
       margin-left: 0.25rem;
       margin-right: 0.25rem;
     }
+
+    @include media-query($on-palm) {
+      width: 100%;
+    }
   }
 }
 

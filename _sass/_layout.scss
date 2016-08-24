@@ -159,6 +159,26 @@ header.scrolled {
     margin-left: 0;
 }
 
+.footer-links {
+    ul.links {
+        margin-top: 1em;
+        margin-bottom: 4em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+        line-height: 2em;
+
+        li {
+          font-weight: bold;
+          font-size: 1.5em;
+          margin-left: .5em;
+          margin-right: .5em;
+          display:inline-block;
+        }
+    }
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
