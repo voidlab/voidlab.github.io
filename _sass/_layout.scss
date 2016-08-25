@@ -92,13 +92,13 @@ header.scrolled {
 
     .trigger {
         display: inline-block;
+        background: $background-color;
     }
 
     @include media-query($on-palm) {
         position: absolute;
         top: 0px;
         left: $spacing-unit / 2;
-        background-color: $background-color;
         text-align: left;
 
         .menu-icon {
@@ -123,15 +123,15 @@ header.scrolled {
             }
         }
 
-        .trigger {
-            clear: both;
-            display: none;
+        .trigger-wrapper {
+            height: 0px;
+            overflow: hidden;
         }
 
-        &:hover .trigger {
+        .trigger {
             display: block;
             padding-bottom: 5px;
-            border: 1px solid $brand-color;
+            width: 100%;
         }
 
         .page-link {

@@ -11,7 +11,7 @@
           <line y1="10" x2="40" y2="10"/><line y1="20" x2="40" y2="20"/><line y1="30" x2="40" y2="30"/>
           </svg>
         </a>
-
+        <div class="trigger-wrapper">
         <div class="trigger">
           {% for my_page in site.pages %}
             {% if my_page.title %}
@@ -22,6 +22,7 @@
             <a class="page-link {{current}}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             {% endif %}
           {% endfor %}
+        </div>
         </div>
       </nav>
     </div>
