@@ -1,12 +1,4 @@
 $(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 86) {
-            $("header").addClass("scrolled");
-        } else {
-            $("header").removeClass("scrolled");
-        }
-    });
-
 	var nav = $('.menu-icon');
 	console.log(nav);
     nav.bind('click', function () {
