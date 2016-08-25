@@ -8,8 +8,14 @@ header {
 }
 
 .nav-wrapper {
-    min-height: 86px; 
-    width: 100%;
+    min-height: 86px;
+
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+
+
+    margin-left: auto;
+    margin-right: auto;
 
     text-align: center;
     line-height: 86px;
@@ -20,7 +26,6 @@ header {
 }
 
 .site-title {
-    margin-right: 20px;
     font-weight: 700;
 }
 
@@ -63,10 +68,12 @@ header.scrolled {
 .site-title {
 
     display: inline-block;
+    margin-right: 20px;
 
     @include media-query($on-palm) {
         width: 100%;
         text-align: center;
+        margin-right: 0px;
     }
 
     .page-link {
@@ -90,7 +97,7 @@ header.scrolled {
 
 .site-nav {
 
-    width: auto;
+    width: 100%;
 
     .menu-icon {
         display: none;
@@ -120,7 +127,6 @@ header.scrolled {
         top: 0px;
         left: 0px;
         text-align: left;
-        width: 100%;
 
         .menu-icon {
             display: block;

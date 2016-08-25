@@ -5,16 +5,15 @@ section#members {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
-  width: calc(100% + 30px);
+  width: calc(100% - $spacing-unit);
 
   margin-bottom: $spacing-unit;
-  justify-content: flex-start;
+  justify-content: space-between;
   
   section.member-container {
     width: 280px;
     max-width: 280px;
     margin-left: 0;
-    margin-right: $spacing-unit;
     margin-bottom: $spacing-unit;
 
     flex: 1 1 auto;
