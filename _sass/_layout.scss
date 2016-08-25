@@ -9,12 +9,10 @@ header {
 
 .nav-wrapper {
     min-height: 86px; 
-
+    width: 100%;
 
     text-align: center;
     line-height: 86px;
-
-
 }
 
 .site-nav .page-link.current-page {
@@ -63,18 +61,36 @@ header.scrolled {
 }
 
 .site-title {
-    font-weight: 700;
+
     display: inline-block;
+
+    @include media-query($on-palm) {
+        width: 100%;
+        text-align: center;
+    }
+
+    .page-link {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.site-title a {
+    font-weight: 700;
+    display: block;
     color: $text-color;
 
     &,
     &:visited {
         color: $text-color;
     }
+
+
 }
 
 .site-nav {
 
+    width: auto;
 
     .menu-icon {
         display: none;
@@ -95,28 +111,37 @@ header.scrolled {
         background: $background-color;
     }
 
+    .trigger-wrapper {
+        display: inline-block;
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 0px;
-        left: $spacing-unit / 2;
+        left: 0px;
         text-align: left;
+        width: 100%;
 
         .menu-icon {
             display: block;
-            float: left;
-            width: 40px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            padding-left: $spacing-unit / 2;
+            padding-right: $spacing-unit / 2;
+            width: 30px;
             height: 56px;
             line-height: 0;
-            padding-top: 20px;
+            padding-top: 30px;
             text-align: center;
 
             > svg {
-                width: 40px;
-                height: 40px;
+                width: 30px;
+                height: 30px;
 
                 line {
                     stroke: $brand-color;
-                    stroke-width: 3px;
+                    stroke-width: 2px;
                     fill:none;
                     stroke-miterlimit:10;
                 }
@@ -125,28 +150,29 @@ header.scrolled {
 
         .trigger-wrapper {
             height: 0px;
+            padding-left: $spacing-unit / 2;
+            width: 100%;
             overflow: hidden;
+            vertical-align: top;
+            border-bottom: 1px solid white;
         }
 
         .trigger {
+            margin-top: 1px;
             display: block;
-            padding-bottom: 5px;
+            padding-top: $spacing-unit / 4;
+            padding-bottom: $spacing-unit / 4;
             width: 100%;
         }
 
         .page-link {
             display: block;
-            padding: 5px 10px;
             font-size: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            padding-top: $spacing-unit / 4;
+            padding-bottom: $spacing-unit / 4;
         }
     }
 }
-
-
 
 /**
  * Site footer
@@ -183,6 +209,13 @@ header.scrolled {
             font-size: 2em;
           }
           display:inline-block;
+        }
+
+        li.first {
+            margin-left: 0px;
+        }
+        li.last {
+            margin-right: 0px;
         }
     }
 }

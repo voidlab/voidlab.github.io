@@ -28,6 +28,9 @@ section#splash {
   p {
     column-count: 2;
     line-height: 1.8em;
+    @include media-query($on-palm) {
+      column-count: 1;
+    }
   }
 
   ul.links {

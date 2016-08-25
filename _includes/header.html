@@ -1,17 +1,16 @@
 <header class="site-header">
 
-  <div class="wrapper">
-    <div class="nav-wrapper">
-
-      <a class="site-title page-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-      <nav class="site-nav">
-        <a href="#" class="menu-icon">
-          <svg viewBox="0 0 40 40">
-          <line y1="10" x2="40" y2="10"/><line y1="20" x2="40" y2="20"/><line y1="30" x2="40" y2="30"/>
-          </svg>
-        </a>
-        <div class="trigger-wrapper">
+  <div class="nav-wrapper">
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 30 30">
+        <line y1="3" x2="30" y2="3"/><line y1="13" x2="30" y2="13"/><line y1="23" x2="30" y2="23"/>
+        </svg>
+      </a>
+      <div class="site-title">
+        <a class="page-link " href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </div>
+      <div class="trigger-wrapper">
         <div class="trigger">
           {% for my_page in site.pages %}
             {% if my_page.title %}
@@ -23,9 +22,8 @@
             {% endif %}
           {% endfor %}
         </div>
-        </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </div>
 
 </header>
