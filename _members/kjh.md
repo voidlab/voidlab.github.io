@@ -1,5 +1,5 @@
 ---
 name: Kate Hollenbach
-photo: images/twinkle.gif
+photo: images/members/kjhollen.jpg
 ---
 Media artist + programmer

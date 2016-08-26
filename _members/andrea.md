@@ -1,5 +1,5 @@
 ---
 name: Annamaria Andrea
-photo: images/twinkle.gif
+photo: images/members/annamaria-andrea.jpg
 ---
 Designer, researcher, magenta.
