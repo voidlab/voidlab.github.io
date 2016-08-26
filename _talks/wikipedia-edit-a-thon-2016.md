@@ -37,7 +37,7 @@ images:
   credit:
     name: Andrea Vitali
     url: http://annamariandrea.itch.io/
-- image: /images/edit-a-thon-2016/wikipedia-4.jpg
+- image: /images/edit-a-thon-2016/wikipedia-4.png
   caption: "Second tutorial hosted by hsinyu lin."
   credit:
     name: Anisa Bashiri
