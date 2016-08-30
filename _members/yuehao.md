@@ -1,5 +1,5 @@
 ---
 name: Yuehao Jiang
-photo: images/twinkle.gif
+photo: images/members/yuehao.jpg
 ---
 Live creature, mama, 💖, emoji lover.
