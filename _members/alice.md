@@ -1,5 +1,5 @@
 ---
 name: Alice Jung
-photo: images/twinkle.gif
+photo: images/members/alice.jpg
 ---
 Multi-identity cyborg. Korean American.
