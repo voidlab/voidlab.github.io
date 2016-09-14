@@ -1,5 +1,6 @@
 ---
 name: Sanglim Han
-photo: images/twinkle.gif
+photo: images/members/sanglim.jpg
+website: http://sanglimhan.work
 ---
-Dolphin loving human cyborg being.
+art worker with modernized body

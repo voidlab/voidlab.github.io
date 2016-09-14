@@ -1,5 +1,6 @@
 ---
-name: zeenyooneen
-photo: images/twinkle.gif
+name: Yulin 玉林
+photo: images/members/hsinyu.jpg
+website: http://hsinyulin.info
 ---
-intersectional creature, they / them / theirs.
+Artist, Researcher, Visiting Professor LMU

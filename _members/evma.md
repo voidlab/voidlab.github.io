@@ -1,5 +1,5 @@
 ---
 name: Evelyn Masso
-photo: images/twinkle.gif
+photo: images/members/evelyn.jpg
 ---
 interaction designer and engineer
