@@ -16,7 +16,7 @@ section#splash {
   flex-flow: column nowrap;
 
   h1 {
-    font-size: 3.0em;
+    font-size: 2.5em;
 
     @include media-query($on-palm) {
       font-size: 2em;
