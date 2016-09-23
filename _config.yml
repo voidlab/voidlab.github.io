@@ -13,8 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
   voidLab is an intersectional feminist collective for women,
   non-binary, gender nonconforming, trans and queer people
   to express individual identities through arts and technologies
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/voidlab" # the subpath of your site, e.g. /blog
+url: "http://dev.dma.ucla.edu" # the base hostname & protocol for your site
 twitter_username: uclavoidlab
 github_username: voidlab
 collections:

@@ -7,7 +7,7 @@
 			{% for img in include.project.images %}
 				<li>
   				<div class="slide">
-					<img src="{{img.image}}" />
+					<img src="{{site.baseurl}}/{{img.image}}" />
 					<span class="caption">{{img.caption}} {% if img.credit != null %}Photo by {% include person.html person=img.credit %}.{% endif %}
 					</span>
 				</div>

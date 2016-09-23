@@ -1,5 +1,5 @@
 <section class="member-container">
-  <img src="{{ site.baseurl }}{{ include.member.photo }}" alt="{{ include.member.name }}" />
+  <img src="{{ site.baseurl }}/{{ include.member.photo }}" alt="{{ include.member.name }}" />
   <h1>{% if include.member.website != null %}<a href="{{include.member.website}}" target="main">{% endif %}{{include.member.name}}{% if include.member.website != null %}</a>{% endif %}</h1>
   <span>{{ include.member.content }}</span>
 </section>
