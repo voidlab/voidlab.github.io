@@ -1,7 +1,7 @@
 ---
 title: Biased Data
 type: talk
-date: November 19, 2015
+eventdate: November 19, 2015
 location: UCLA Broad Art Center
 team:
 - name: hsinyu lin

@@ -1,7 +1,7 @@
 ---
 title: Art + Feminism 2016 Wikipedia Edit-a-thon
 type: talk
-date: March 4, 2016
+eventdate: March 4, 2016
 location: UCLA Broad Art Center
 team:
 - name: Niko

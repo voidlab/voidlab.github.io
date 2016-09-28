@@ -1,7 +1,7 @@
 ---
 title: Sorry for not being ____
 type: exhibition
-date: April 4, 2016
+eventdate: April 4, 2016
 location: UCLA Untitled Cafe, Broad Art Center
 artists:
 - name: hsinyu lin

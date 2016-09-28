@@ -21,8 +21,8 @@
 	<div class="project-description">{{include.project.content}}</div>
 	<div class="project-metadata">
 		<div class="when-and-where">
-			{% if include.project.date != null %}
-			<div class="date">Date: {{include.project.date | date: '%B %d, %Y'}}</div>
+			{% if include.project.eventdate != null %}
+			<div class="date">Date: {{include.project.eventdate}}</div>
 			{% endif %}
 			{% if include.project.location != null %}
 			<div class="location">Location: {{include.project.location}}</div>

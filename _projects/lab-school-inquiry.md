@@ -1,7 +1,7 @@
 ---
 title: Lab School Inquiry
 type: project
-date: May 25-June 3, 2015
+eventdate: May 25–June 3, 2015
 location: UCLA Lab School
 team: 
 - name: Claire Joseph
