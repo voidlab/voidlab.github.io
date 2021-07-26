@@ -1,6 +1,6 @@
 ---
-name: Lilyan Kris
+name: Jules Kris
 photo: images/members/lilyan.jpg
-website: http://cargocollective.com/lkris
+website: https://juleskris.com/
 ---
 designer and interactive noodle
